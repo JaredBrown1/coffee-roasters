@@ -1,18 +1,33 @@
 import React from "react";
 
+import {
+	Container,
+	List,
+	ListItem,
+	SocialMedia,
+	SocialMediaItem,
+	Title,
+} from "./styles/footerStyles";
+
 const Footer = () => {
 	return (
-		<div>
-			<div>Logo</div>
+		<Container>
 			<div>
-				<ul>
-					<li>Home</li>
-					<li>Aboute</li>
-					<li>Create Your Plan</li>
-				</ul>
+				<Title>coffeeroasters</Title>
 			</div>
-			<div>Social media logos</div>
-		</div>
+			<div>
+				<List>
+					<ListItem>Home</ListItem>
+					<ListItem>Aboute</ListItem>
+					<ListItem>Create Your Plan</ListItem>
+				</List>
+			</div>
+			<SocialMedia>
+				<SocialMediaItem>FB</SocialMediaItem>
+				<SocialMediaItem>TW</SocialMediaItem>
+				<SocialMediaItem>IG</SocialMediaItem>
+			</SocialMedia>
+		</Container>
 	);
 };
 
