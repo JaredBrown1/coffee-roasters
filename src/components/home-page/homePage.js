@@ -1,9 +1,11 @@
 import React from "react";
 
+import HomePageTop from "./homeTop";
+
 const HomePage = () => {
 	return (
 		<div>
-			<h1>HomePage</h1>
+			<HomePageTop />
 		</div>
 	);
 };
