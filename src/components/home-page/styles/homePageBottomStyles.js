@@ -51,3 +51,36 @@ export const PerkCardParagraph = styled.p`
 export const Icons = styled.img`
 	padding-top: 60px;
 `;
+
+export const StepsContainer = styled.div`
+	display: flex;
+	justify-content: start;
+	text-align: left;
+`;
+
+export const StepsTitle = styled.h3`
+	font-size: 24px;
+	line-height: 32px;
+	color: #83888f;
+	font-family: "Fraunces" sans-serif;
+	text-align: left;
+`;
+
+export const StepsCard = styled.div`
+	width: 285px;
+	height: 355px;
+`;
+
+export const StepNumber = styled.h1`
+	font-size: 72px;
+	line-height: 72px;
+	color: #fdd6ba;
+	font-family: "Fraunces" sans-serif;
+`;
+
+export const StepCardTitle = styled.h2`
+	font-size: 32px;
+	line-height: 36px;
+	color: #333d4b;
+	font-family: "Fraunces" sans-serif;
+`;

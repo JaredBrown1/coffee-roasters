@@ -13,6 +13,11 @@ import {
 	PerkCardTitle,
 	PerkCardParagraph,
 	Icons,
+	StepsContainer,
+	StepsCard,
+	StepsTitle,
+	StepNumber,
+	StepCardTitle,
 } from "./styles/homePageBottomStyles";
 
 const HomePageBottom = () => {
@@ -60,6 +65,54 @@ const HomePageBottom = () => {
 						</PerkCardParagraph>
 					</PerkCard>
 				</PerkCardContainer>
+			</div>
+			<div>
+				<StepsTitle>How it works</StepsTitle>
+				<h2>--------------------------------------</h2>
+				<StepsContainer>
+					<StepsCard>
+						<StepNumber>01</StepNumber>
+						<StepCardTitle>
+							Pick your
+							<br /> coffee
+						</StepCardTitle>
+						<p>
+							Select from our evolving range of artisan
+							<br /> coffees. Our beans are ethically sourced
+							<br /> and we pay fair prices for them. There are <br /> new
+							coffees in all profiles every month
+							<br /> for you to try out.
+						</p>
+					</StepsCard>
+					<StepsCard>
+						<StepNumber>02</StepNumber>
+						<StepCardTitle>
+							Choose the
+							<br /> frequency
+						</StepCardTitle>
+						<p>
+							Customize your oder frequency,
+							<br /> quantity, even your roast style and grind
+							<br /> type. Pause, skip or cancel your
+							<br /> subscription with no commitment
+							<br /> through our online portal.
+						</p>
+					</StepsCard>
+					<StepsCard>
+						<StepNumber>03</StepNumber>
+						<StepCardTitle>
+							Receive and
+							<br /> enjoy!
+						</StepCardTitle>
+						<p>
+							We ship your package within 48 hours,
+							<br /> freshly roasted. Sit back and enjoy
+							<br /> award-winning world-class coffees
+							<br /> curated to provide a distinct tasting experience.
+						</p>
+					</StepsCard>
+				</StepsContainer>
+				<button>Create your plan</button>
 			</div>
 		</div>
 	);
