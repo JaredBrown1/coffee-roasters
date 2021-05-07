@@ -34,4 +34,20 @@ export const PerkCard = styled.div`
 	border-radius: 10px;
 `;
 
-export const PerkCardTitle = styled.h2``;
+export const PerkCardTitle = styled.h2`
+	font-size: 24px;
+	line-height: 32px;
+	color: #fefcf7;
+	font-family: "Fraunces" sans-serif;
+`;
+
+export const PerkCardParagraph = styled.p`
+	font-size: 16px;
+	line-height: 26px;
+	color: #fefcf7;
+	font-family: "Barlow" sans-serif;
+`;
+
+export const Icons = styled.img`
+	padding-top: 60px;
+`;

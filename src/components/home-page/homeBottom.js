@@ -1,11 +1,18 @@
 import React from "react";
 
+import BeanLogo from "./styles/icon-coffee-bean.svg";
+import GiftLogo from "./styles/icon-gift.svg";
+import TruckLogo from "./styles/icon-truck.svg";
+
 import {
 	ContainerBackground,
 	ChooseTitle,
 	ChooseParagraph,
 	PerkCardContainer,
 	PerkCard,
+	PerkCardTitle,
+	PerkCardParagraph,
+	Icons,
 } from "./styles/homePageBottomStyles";
 
 const HomePageBottom = () => {
@@ -24,25 +31,33 @@ const HomePageBottom = () => {
 				</ContainerBackground>
 				<PerkCardContainer>
 					<PerkCard>
-						<h2>Best Quality</h2>
-						<p>
-							Discover an endless variety of the world's best artisan coffee
-							from each of our roasters.
-						</p>
+						<Icons src={BeanLogo} alt="icon" />
+						<PerkCardTitle>Best Quality</PerkCardTitle>
+						<PerkCardParagraph>
+							Discover an endless variety of the world's
+							<br /> best artisan coffee from each
+							<br /> of our roasters.
+						</PerkCardParagraph>
 					</PerkCard>
 					<PerkCard>
-						<h2>Exclusive benefits</h2>
-						<p>
-							Special offers and swag when you subscribe, including 30% off you
+						<Icons src={GiftLogo} alt="icon" />
+						<PerkCardTitle>Exclusive benefits</PerkCardTitle>
+						<PerkCardParagraph>
+							Special offers and swag when you
+							<br /> subscribe, including 30% off your
+							<br />
 							first shipment
-						</p>
+						</PerkCardParagraph>
 					</PerkCard>
 					<PerkCard>
-						<h2>Free Shipping</h2>
-						<p>
-							We cover the cost and coffee is delivered fast. Peak freshness:
+						<Icons src={TruckLogo} alt="icon" />
+						<PerkCardTitle>Free Shipping</PerkCardTitle>
+						<PerkCardParagraph>
+							We cover the cost and coffee is
+							<br /> delivered fast. Peak freshness:
+							<br />
 							guaranteed.
-						</p>
+						</PerkCardParagraph>
 					</PerkCard>
 				</PerkCardContainer>
 			</div>
