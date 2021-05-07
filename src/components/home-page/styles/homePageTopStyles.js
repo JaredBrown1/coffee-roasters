@@ -16,6 +16,22 @@ export const HeaderContent = styled.div`
 
 export const CoffeeContainer = styled.div`
 	display: flex;
+	padding: 50px;
+	padding-right: 20px;
+`;
+
+export const CoffeeParagraph = styled.p`
+	font-size: 16px;
+	font-family: "Barlow regular", sans-serif;
+	line-height: 26px;
+	color: #333d4b;
+`;
+
+export const CoffeeTitle = styled.h2`
+	font-size: 24px;
+	font-family: "Barlow", sans-serif;
+	line-height: 32px;
+	color: #333d4b;
 `;
 
 export const Title = styled.h1`
@@ -30,10 +46,31 @@ export const Paragraph = styled.p`
 	font-size: 16px;
 	line-height: 26px;
 	font-family: "Barlow", sans-serif;
+	padding-bottom: 30px;
 `;
 
 export const PlanButton = styled.button`
 	background-color: #0e8784;
 	width: 217px;
 	height: 56px;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+`;
+
+export const Image = styled.img`
+	width: 255px;
+	height: 193px;
+`;
+
+export const BackgroundTitle = styled.h1`
+	font-size: 180px;
+	margin-bottom: -135px;
+	background: #c2cded;
+	background: -webkit-linear-gradient(to bottom, #c2cded 0%, #f7f7f7 100%);
+	background: -moz-linear-gradient(to bottom, #c2cded 0%, #f7f7f7 100%);
+	background: linear-gradient(to bottom, #c2cded 0%, #f7f7f7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 `;
