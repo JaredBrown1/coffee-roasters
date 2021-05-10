@@ -29,3 +29,27 @@ export const UncompParapraph = styled.p`
 	font-family: "Barlow" sans-serif;
 	padding-left: 90px;
 `;
+
+export const HQTitle = styled.h2`
+	padding-top: 130px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	text-align: left;
+	color: #83888f;
+	font-size: 24px;
+	line-height: 32px;
+	font-family: "Fraunces" sans-serif;
+`;
+
+export const HQContainer = styled.div`
+	display: flex;
+	text-align: left;
+	justify-content: flex-start;
+	padding-bottom: 150px;
+`;
+
+export const LocationCard = styled.div`
+	width: 300px;
+	padding-right: 100px;
+	padding-left: 50px;
+`;
