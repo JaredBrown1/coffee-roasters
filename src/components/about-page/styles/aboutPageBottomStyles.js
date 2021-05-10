@@ -9,10 +9,12 @@ export const UncompromiseContainer = styled.div`
 `;
 
 export const UncompImage = styled.img`
-	position: absolute;
-	right: 15%;
-	bottom: -125%;
 	border-radius: 10px;
+`;
+
+export const UncompImageContainer = styled.div`
+	padding-left: 550px;
+	margin-bottom: -400px;
 `;
 
 export const UncompTitle = styled.h1`

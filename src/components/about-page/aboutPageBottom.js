@@ -7,6 +7,7 @@ import Logo3 from "./styles/illustration-uk.svg";
 import {
 	UncompromiseContainer,
 	UncompImage,
+	UncompImageContainer,
 	UncompTitle,
 	UncompParapraph,
 	HQTitle,
@@ -20,9 +21,9 @@ const AboutBottom = () => {
 	return (
 		<div>
 			<div>
-				<div>
+				<UncompImageContainer>
 					<UncompImage src={Image1} alt="uncompromised" />
-				</div>
+				</UncompImageContainer>
 				<UncompromiseContainer>
 					<UncompTitle>Uncompromising Quality</UncompTitle>
 					<UncompParapraph>
