@@ -24,3 +24,32 @@ export const AboutParagraph = styled.p`
 	font-family: "Barlos" sans-serif;
 	padding-left: 90px;
 `;
+
+export const BottomContainer = styled.div`
+	padding-top: 130px;
+	display: flex;
+	justify-content: space-around;
+`;
+
+export const CommitmentImageStyle = styled.img`
+	border-radius: 10px;
+`;
+
+export const CommitmentText = styled.div`
+	text-align: left;
+`;
+
+export const CommitmentTitle = styled.h1`
+	padding-top: 30px;
+	font-size: 40px;
+	line-height: 48px;
+	color: #333d4b;
+	font-family: "Fraunces" sans-serif;
+`;
+
+export const CommitmentParagraph = styled.p`
+	font-size: 16px;
+	line-height: 26px;
+	color: #333d4b;
+	font-family: "Barlow" sans-serif;
+`;

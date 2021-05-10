@@ -4,7 +4,14 @@ import {
 	TopContainer,
 	AboutTitle,
 	AboutParagraph,
+	BottomContainer,
+	CommitmentImageStyle,
+	CommitmentText,
+	CommitmentTitle,
+	CommitmentParagraph,
 } from "./styles/aboutPageTopStyles";
+
+import CommitmentImage from "./styles/image-commitment.jpg";
 
 const AboutTop = () => {
 	return (
@@ -19,11 +26,13 @@ const AboutTop = () => {
 					<br /> brew - in every shipment.
 				</AboutParagraph>
 			</TopContainer>
-			<div>
-				<div>Picture here</div>
+			<BottomContainer>
 				<div>
-					<h1>Our commitment</h1>
-					<p>
+					<CommitmentImageStyle src={CommitmentImage} alt="commitment" />
+				</div>
+				<CommitmentText>
+					<CommitmentTitle>Our commitment</CommitmentTitle>
+					<CommitmentParagraph>
 						We're built on a simple mission and a commitment to doing good along
 						the
 						<br /> way. We want to make it easy for you to discover and brew the
@@ -43,9 +52,9 @@ const AboutTop = () => {
 						<br /> the finest blends, we roast each lot to highlight tasting
 						profiles distinctive to
 						<br /> their native growing region.
-					</p>
-				</div>
-			</div>
+					</CommitmentParagraph>
+				</CommitmentText>
+			</BottomContainer>
 		</div>
 	);
 };
