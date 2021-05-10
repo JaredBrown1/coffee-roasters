@@ -1,9 +1,13 @@
 import React from "react";
 
+import AboutTop from "./aboutPageTop";
+import AboutBottom from "./aboutPageBottom";
+
 const AboutPage = () => {
 	return (
 		<div>
-			<h1>about page</h1>
+			<AboutTop />
+			<AboutBottom />
 		</div>
 	);
 };
