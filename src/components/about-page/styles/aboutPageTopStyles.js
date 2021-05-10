@@ -29,6 +29,7 @@ export const BottomContainer = styled.div`
 	padding-top: 130px;
 	display: flex;
 	justify-content: space-around;
+	padding-bottom: 180px;
 `;
 
 export const CommitmentImageStyle = styled.img`
