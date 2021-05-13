@@ -19,7 +19,9 @@ const NavBar = () => {
 						<ListItem>ABOUT US</ListItem>
 					</Link>
 
-					<ListItem>CREATE YOUR PLAN</ListItem>
+					<Link style={{ textDecoration: "none" }} to="/create">
+						<ListItem>CREATE YOUR PLAN</ListItem>
+					</Link>
 				</List>
 			</div>
 		</Container>
