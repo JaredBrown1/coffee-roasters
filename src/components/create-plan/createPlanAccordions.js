@@ -16,6 +16,7 @@ const PlanAccordion = (props) => {
 				width: "730px",
 				padding: "30px",
 				boxShadow: "none",
+				backgroundColor: "#fefcf7",
 			}}
 		>
 			<AccordionSummary
@@ -25,17 +26,74 @@ const PlanAccordion = (props) => {
 				{props.summary}
 			</AccordionSummary>
 			<DetailsContainer>
-				<AccordionDetails style={{ display: "flex", flexDirection: "column" }}>
-					<h1>{props.titleOne}</h1>
-					{props.summaryOne}
+				<AccordionDetails
+					style={{
+						display: "flex",
+						flexDirection: "column",
+						width: "228px",
+						height: "250px",
+						backgroundColor: "#f4f1eb",
+						borderRadius: "10px",
+						margin: "15px",
+					}}
+				>
+					<h1 style={{ fontSize: "24px", fontFamily: "Fraunces" }}>
+						{props.titleOne}
+					</h1>
+					<p
+						style={{
+							fontSize: "16px",
+							fontFamily: "Barlow regular",
+						}}
+					>
+						{props.summaryOne}
+					</p>
 				</AccordionDetails>
-				<AccordionDetails style={{ display: "flex", flexDirection: "column" }}>
-					<h1>{props.titleTwo}</h1>
-					{props.summaryTwo}
+				<AccordionDetails
+					style={{
+						display: "flex",
+						flexDirection: "column",
+						width: "228px",
+						height: "250px",
+						backgroundColor: "#f4f1eb",
+						borderRadius: "10px",
+						margin: "15px",
+					}}
+				>
+					<h1 style={{ fontSize: "24px", fontFamily: "Fraunces" }}>
+						{props.titleTwo}
+					</h1>
+					<p
+						style={{
+							fontSize: "16px",
+							fontFamily: "Barlow regular",
+						}}
+					>
+						{props.summaryTwo}
+					</p>
 				</AccordionDetails>
-				<AccordionDetails style={{ display: "flex", flexDirection: "column" }}>
-					<h1>{props.titleThree}</h1>
-					{props.summaryThree}
+				<AccordionDetails
+					style={{
+						display: "flex",
+						flexDirection: "column",
+						width: "228px",
+						height: "250px",
+						backgroundColor: "#f4f1eb",
+						borderRadius: "10px",
+						margin: "15px",
+					}}
+				>
+					<h1 style={{ fontSize: "24px", fontFamily: "Fraunces" }}>
+						{props.titleThree}
+					</h1>
+					<p
+						style={{
+							fontSize: "16px",
+							fontFamily: "Barlow regular",
+						}}
+					>
+						{props.summaryThree}
+					</p>
 				</AccordionDetails>
 			</DetailsContainer>
 		</Accordion>

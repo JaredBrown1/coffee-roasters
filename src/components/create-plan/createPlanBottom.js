@@ -18,20 +18,20 @@ const CreatePlanBottom = () => {
 					<h3>Preferences</h3>
 				</Steps>
 				<Steps>
-					<h3 style={{ paddingRight: "15px", color: "#0e8784" }}>02</h3>
-					<h3>Preferences</h3>
+					<h3 style={{ paddingRight: "15px" }}>02</h3>
+					<h3>Bean Type</h3>
 				</Steps>
 				<Steps>
-					<h3 style={{ paddingRight: "15px", color: "#0e8784" }}>03</h3>
-					<h3>Preferences</h3>
+					<h3 style={{ paddingRight: "15px" }}>03</h3>
+					<h3>Quantity</h3>
 				</Steps>
 				<Steps>
-					<h3 style={{ paddingRight: "15px", color: "#0e8784" }}>04</h3>
-					<h3>Preferences</h3>
+					<h3 style={{ paddingRight: "15px" }}>04</h3>
+					<h3>Grind Option</h3>
 				</Steps>
 				<Steps>
-					<h3 style={{ paddingRight: "15px", color: "#0e8784" }}>05</h3>
-					<h3>Preferences</h3>
+					<h3 style={{ paddingRight: "15px" }}>05</h3>
+					<h3>Deliveries</h3>
 				</Steps>
 			</StepsContainer>
 			<AccordionsContainer>

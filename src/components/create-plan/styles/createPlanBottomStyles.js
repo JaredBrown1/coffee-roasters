@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 	display: flex;
+	padding-top: 100px;
+	padding-left: 50px;
 `;
 
 export const StepsContainer = styled.div`
@@ -10,6 +12,7 @@ export const StepsContainer = styled.div`
 	width: 255px;
 	height: 356px;
 	padding-right: 70px;
+	padding-top: 20px;
 `;
 
 export const Steps = styled.div`
